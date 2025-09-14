@@ -1,0 +1,40 @@
+# ROBOTS.TXT - NEW_VERSION_WHTSAP
+# Blocage complet de tous les robots et crawlers
+
+User-agent: *
+Disallow: /
+
+# Autoriser les crawlers des réseaux sociaux pour Open Graph
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: Instagram
+Allow: /
+
+# Autoriser l'accès aux images pour tous les crawlers
+User-agent: *
+Allow: /assets/img/
+Allow: /assets/css/
+Allow: /assets/js/
+
+# Bloquer les autres bots
+User-agent: *
+Disallow: /
+
+# Sitemap (optionnel)
+# Sitemap: https://votre-domaine.com/sitemap.xml
